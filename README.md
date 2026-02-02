@@ -10,7 +10,7 @@ This rover autonomously navigates using IMU for orientation, captures images wit
 - **Logitech USB Webcam** (e.g., C270/C920): Connected via USB hub for live image capture in Linux mode.
 
 ## Software Architecture
-The system runs in Arduino Uno Q's SBC (Linux) mode via Arduino App Lab IDE, integrated with Edge Impulse. IMU/motors use Arduino RT firmware (C++ libs); camera/AI use Linux. Edge Impulse model (MobileNetV2) classifies potato diseases from webcam frames.
+The system runs in Arduino Uno Q's SCP (Linux) mode via Arduino App Lab IDE, integrated with Edge Impulse. IMU/motors use Arduino RT firmware (C++ libs); camera/AI use Linux. Edge Impulse model (MobileNetV2) classifies potato diseases from webcam frames.
 
 ## Edge Impulse Model
 1. Collect potato leaf images (healthy, early/late blight, etc.) via public datasets or field capture.
